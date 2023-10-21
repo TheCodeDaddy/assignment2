@@ -1,0 +1,56 @@
+Date went through tutorial: 10/18/2023
+Date Github Setup. 06/2023
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+git rev-list --count HEAD = 9 commits have been done to rep
+
+last modified: git log -1 --format="%ad" -- README.md
+Sat Oct 21 02:26:28 2023 +0000o
+
+
+Branches in Git provide isolated workspaces for developers, ensuring clean, independent development, and enabling efficient collaboration on various tasks, enhancing code management and teamwork.Isolation of Work and Collaboration.
+
+git log shows the commit history with details. git status displays the current working directory's state, indicating changes, untracked files, and branch information.
+
+git log -- Vehicle.h
+
+
+git log --grep="file"
+
+(I) Inheritance: Inheritance is a fundamental OOP concept where a class (subclass or child class) can inherit properties and behaviors (attributes and methods) from another class (superclass or parent class). It promotes code reuse and hierarchical organization.
+
+(II) Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to represent various data types, promoting flexibility and extensibility.
+
+(III) Encapsulation: Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on the data into a single unit known as a class. It enforces access control to protect data from unauthorized access and modification, enhancing code organization and security.
+
+9. Main Difference - "Dictator and Lieutenants" vs. "Integration Manager" Workflow:
+
+The primary difference between the "Dictator and Lieutenants" and "Integration Manager" workflows lies in how code integration is managed:
+
+Dictator and Lieutenants Workflow: In this model, a central authority (the "Benevolent Dictator for Life" or BDFL) has the final say in accepting or rejecting code contributions. Lieutenants are trusted individuals responsible for specific code areas, but the BDFL's approval is required for code to be merged.
+
+Integration Manager Workflow: In this model, a designated integration manager is responsible for merging code contributions. Contributors send pull requests, which are reviewed and merged by the integration manager. This model is often used in open-source projects with a distributed team.
+
+10. Benefits of "Dictator and Lieutenants" for a Team of 100 Developers:
+
+A team of 100 developers can benefit from the "Dictator and Lieutenants" workflow in several ways compared to the "Centralized" workflow:
+
+Scalability: As the team grows, the "Dictator and Lieutenants" model can scale more effectively by distributing responsibilities among lieutenants. This reduces the burden on the central authority (BDFL) and enhances code review and integration.
+
+Code Quality: The presence of lieutenants and the rigorous review process in this model result in higher code quality. It ensures that code contributions meet project standards, improving the overall quality of the codebase.
+
+Code Review Expertise: The model allows for more specialized code review by lieutenants who are knowledgeable in specific areas. This expertise results in more thorough and context-aware code reviews.
+
+Consistency: Code integration is consistent and follows project guidelines because it is closely monitored by trusted individuals. This consistency prevents codebase fragmentation and maintains uniform project standards.
+
+Efficient Collaboration: While the "Dictator and Lieutenants" model introduces a degree of centralized control, it still encourages efficient collaboration within the team, with lieutenants acting as intermediaries to facilitate contributions.
+
+
